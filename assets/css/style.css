@@ -1,0 +1,534 @@
+:root {
+  --color-link: #fff;
+  --p-negro: #000;
+  --p-blanco: #fff;
+  --t-dorado: #cc9900;
+  --t-blanco: #fff;
+  --box-black: hsla(0, 0%, 0%, 0.521);
+  --btn-home: rgba(255, 255, 255, 0.26);
+  --btn-hover: rgba(0, 0, 0, 0.404);
+}
+
+/* Nav */
+.nav-list a {
+  color: var(--color-link);
+  font-family: "Gentium Book Basic", serif;
+}
+
+.nav-list a:visited {
+  color: var(--color-link);
+}
+
+.nav-list a:hover {
+  border-top: solid 1px #fff;
+  color: var(--color-link);
+}
+
+nav .fab {
+  color: var(--t-dorado);
+}
+
+/* Fin Nav */
+/* Home */
+#home {
+  background-image: url(../img/fondo-section-home.png);
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.separador::before {
+  content: url(../img/separador.png);
+  position: absolute;
+  top: 62%;
+  left: 42%;
+
+}
+
+.abs-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#home h1,
+h2 {
+  font-family: "Yeseva One", cursive;
+  color: var(--t-blanco);
+}
+
+.btn-home {
+  color: var(--color-link);
+  border: var(--p-blanco) solid 1px;
+  text-decoration: none;
+  background-color: var(--btn-home);
+}
+
+.btn-home:hover {
+  background-color: var(--box-black);
+  border: var(--p-negro) solid 1px;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+/* Fin Home */
+/* About*/
+#about {
+  background-image: url(../img/background-section-segunda.png);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  position: relative;
+}
+
+#about h2 {
+  color: var(--t-dorado);
+  font-family: "Yeseva One", cursive;
+}
+
+#about p {
+  font-family: "Lato", sans-serif;
+}
+
+#about .separador-dorado::before {
+  content: url(../img/separador-dorado.png);
+  position: absolute;
+  top: 21%;
+  left: 16%;
+
+}
+
+/* Fin about */
+/* Ingredients */
+#ingredients {
+  background-image: url(../img/fondo-section-tercera.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ingredients .separador-blanco::before {
+  content: url(../img/separador-blanco.png);
+  position: absolute;
+  top: 37%;
+  right: 20%;
+
+}
+
+.box-bl {
+  background-color: var(--box-black);
+}
+
+#ingredients h2 {
+  font-family: "Yeseva One", cursive;
+  color: var(--t-blanco);
+}
+
+#ingredients p {
+  font-family: "Lato", sans-serif;
+  color: var(--p-blanco);
+}
+
+/* Fin Ingredients */
+/* Menu */
+#menu {
+  height: auto;
+  background-image: url(../img/background-section-cuarta.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#menu .separador-dorado::before {
+  content: url(../img/separador-dorado.png);
+  position: absolute;
+  top: 8%;
+  left: 16%;
+
+}
+
+#menu .separador-dorado2::before {
+  content: url(../img/separador-dorado.png);
+  position: absolute;
+  top: 8%;
+  right: 16%;
+
+}
+
+#menu .separador-dorado3::before {
+  content: url(../img/separador-dorado.png);
+  position: absolute;
+  top: 53%;
+  left: 17%;
+
+}
+
+#menu .separador-dorado4::before {
+  content: url(../img/separador-dorado.png);
+  position: absolute;
+  top: 53%;
+  right: 16%;
+
+}
+
+#menu h2 {
+  color: var(--t-dorado);
+  font-family: "Yeseva One", cursive;
+}
+
+#menu p {
+  font-family: "Lato", sans-serif;
+}
+
+#menu h3 {
+  font-family: "Yeseva One", cursive;
+  color: var(--t-dorado);
+}
+
+/* Fin Menu */
+/* Reviews */
+#reviews {
+  height: 850px;
+  background-image: url(../img/fonfo-section-quinta.png);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+#reviews h2 {
+  font-family: "Yeseva One", cursive;
+  color: var(--t-blanco);
+}
+
+#reviews p {
+  color: var(--p-blanco);
+  font-family: "Gentium Book Basic", serif;
+}
+
+#reviews figcaption p {
+  color: var(--p-blanco);
+  font-family: "Lato", sans-serif;
+}
+
+#reviews .separador-blanco::before {
+  content: url(../img/separador-blanco.png);
+  position: absolute;
+  top: 42%;
+  right: 41%;
+}
+
+/* Fin Reviews */
+/* Contacto */
+#contacto {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/background-section-segunda.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+#contacto h2 {
+  font-family: "Yeseva One", cursive;
+  color: var(--t-dorado);
+}
+
+#contacto .separador-dorado::before {
+  content: url(../img/separador-dorado.png);
+  position: absolute;
+  top: 23%;
+  right: 18%;
+}
+
+#contacto form label {
+  font-family: "Open Sans", sans-serif;
+  color: var(--t-dorado);
+  font-weight: bold;
+  margin: 10px;
+}
+
+#contacto .fecha input {
+  outline: none;
+}
+
+#contacto form input {
+  font-style: italic;
+}
+
+#contacto form select,
+input:hover {
+  border: var(--t-dorado) solid 1px;
+}
+
+#contacto form select {
+  outline: none;
+}
+
+#contacto .btn-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#contacto .btn-cont input {
+  outline: none;
+  border: 0;
+  background-color: var(--t-dorado);
+  color: var(--color-link);
+}
+
+/* Fin Contacto */
+/* Footer */
+#footer {
+  position: relative;
+}
+
+footer h3 {
+  color: var(--t-blanco);
+  font-family: "Yeseva One", cursive;
+}
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--p-blanco);
+}
+
+footer .fab {
+  color: var(--p-blanco);
+}
+
+#footer .separador-blanco::before {
+  content: url(../img/separador-blanco.png);
+  position: absolute;
+  top: 25%;
+  left: 8%;
+
+}
+
+#footer .separador-blanco2::before {
+  content: url(../img/separador-blanco.png);
+  position: absolute;
+  top: 27%;
+  right: 41%;
+
+}
+
+#footer .separador-blanco3::before {
+  content: url(../img/separador-blanco.png);
+  position: absolute;
+  top: 26%;
+  right: 8%;
+
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #000;
+  }
+}
+
+@media (max-width: 820px) {
+  .navbar-toggler-icon {
+    background-color: var(--p-negro);
+    border: solid 2px #fff;
+  }
+
+  /* home */
+  #home .separador::before {
+    top: 39%;
+    left: 36%;
+  }
+
+  #home {
+    height: 700px;
+  }
+
+  /* about*/
+  #about .plato img {
+    width: 106%;
+  }
+
+  /* ingredientes*/
+  #ingredients .separador-blanco::before {
+    top: 26%;
+    left: 54%;
+  }
+
+  /* Reviews */
+
+  #reviews .separador-blanco::before {
+    top: 36%;
+    right: 34%;
+  }
+  /* contacto*/
+  #contacto .separador-dorado::before {
+    top: 13%;
+    right: 13%;
+  }
+  #contacto form {
+    flex-direction: column;
+  }
+  /* Footer */
+  #footer .separador-blanco3::before {
+    top: 23%;
+    left: 69%;
+  }
+
+  #footer .separador-blanco2::before {
+    top: 24%;
+    left: 35%;
+  }
+
+  #footer .separador-blanco::before {
+    top: 22%;
+    left: 2%;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar-toggler-icon {
+    background-color: var(--p-negro);
+    border: solid 2px #fff;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* home */
+  #home {
+    height: 700px;
+  }
+
+  #home .titulo {
+    text-align: center;
+  }
+
+  #home .titulo2 {
+    text-align: center;
+  }
+
+  #home .separador::before {
+    top: 58%;
+    left: 20%;
+  }
+
+  #home .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* about*/
+  #about {
+    height: 700px;
+  }
+
+  #about img {
+    width: 200px;
+  }
+
+  #about .separador-dorado::before {
+    top: 23%;
+  }
+
+  #about .plato {
+    display: none;
+  }
+
+  /* ingredientes*/
+  #ingredients .separador-blanco::before {
+    top: 25%;
+    left: 17%;
+  }
+
+  /* menu */
+  #menu p {
+    font-size: 10px;
+  }
+
+  #menu h3 {
+    font-size: 14px;
+  }
+
+  #menu .Appetisers {
+    margin-right: 10px;
+  }
+
+  #menu .Salads {
+    margin-right: 10px;
+  }
+
+  #menu .separador-dorado4::before {
+    display: none;
+  }
+
+  #menu .separador-dorado2::before {
+    display: none;
+  }
+
+  /* Reviews */
+
+  #reviews .separador-blanco::before {
+    top: 35%;
+    right: 19%;
+  }
+
+  /* contacto */
+  #contacto .imagen-contacto img {
+    height: 30%;
+    align-items: center;
+  }
+
+  #contacto .info-contacto {
+    margin: -900px 0 -100px 0;
+  }
+
+  #contacto form {
+    flex-direction: column;
+  }
+
+  #contacto .separador-dorado::before {
+    top: 33%;
+    right: 17%;
+  }
+
+  /* Footer */
+  #footer .separador-blanco3::before {
+    top: 75%;
+    left: 10%;
+  }
+
+  #footer .separador-blanco2::before {
+    top: 41%;
+    left: 15%;
+  }
+
+  #footer .separador-blanco::before {
+    top: 9%;
+    left: 15%;
+  }
+
+}

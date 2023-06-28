@@ -1,0 +1,256 @@
+:root {
+    --color-link: #fff;
+    --p-negro: #000;
+    --p-blanco: #fff;
+    --t-dorado: #cc9900;
+    --t-blanco: #fff;
+    --box-black: hsla(0, 0%, 0%, 0.521);
+    --btn-home: rgba(255, 255, 255, 0.26);
+    --btn-hover: rgba(0, 0, 0, 0.404);
+}
+
+
+/* Nav */
+
+.nav-list a {
+    color: var(--color-link);
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.nav-list a:visited {
+    color: var(--color-link);
+}
+
+.nav-list a:hover {
+    border-top: solid 1px #fff;
+    color: var(--color-link);
+}
+
+nav .fab {
+    color: var(--t-dorado);
+}
+
+
+/* Fin Nav */
+
+
+/* Home */
+
+#home {
+    background-image: url(../img/fondo-section-home.png);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.abs-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1,
+h2 {
+    font-family: 'Yeseva One', cursive;
+    color: var(--t-blanco);
+}
+
+.btn-home {
+    color: var(--color-link);
+    border: var(--p-blanco) solid 1px;
+    text-decoration: none;
+    background-color: var(--btn-home);
+}
+
+.btn-home:hover {
+    background-color: var(--box-black);
+    border: var(--p-negro) solid 1px;
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+
+/* Fin Home */
+
+
+/* About*/
+
+#about {
+    background-image: url(../img/background-section-segunda.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+#about h2 {
+    color: var(--t-dorado);
+    font-family: 'Yeseva One', cursive;
+}
+
+#about p {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Fin about */
+
+
+/* Ingredients */
+
+#ingredients {
+    background-image: url(../img/fondo-section-tercera.png);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    display: flex;
+    align-items: center;
+}
+
+.box-bl {
+    background-color: var(--box-black);
+}
+
+#ingredients h2 {
+    font-family: 'Yeseva One', cursive;
+    color: var(--t-blanco);
+}
+
+#ingredients p {
+    font-family: 'Lato', sans-serif;
+    color: var(--p-blanco);
+}
+
+
+/* Fin Ingredients */
+
+
+/* Menu */
+
+#menu {
+    height: auto;
+    background-image: url(../img/background-section-cuarta.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#menu h2 {
+    color: var(--t-dorado);
+    font-family: 'Yeseva One', cursive;
+}
+
+#menu p {
+    font-family: 'Lato', sans-serif;
+}
+
+#menu h3 {
+    font-family: 'Yeseva One', cursive;
+    color: var(--t-dorado);
+}
+
+
+/* Fin Menu */
+
+
+/* Reviews */
+
+#reviews {
+    height: 850px;
+    background-image: url(../img/fonfo-section-quinta.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#reviews h2 {
+    font-family: 'Yeseva One', cursive;
+    color: var(--t-blanco);
+}
+
+#reviews p {
+    color: var(--p-blanco);
+    font-family: 'Gentium Book Basic', serif;
+}
+
+#reviews figcaption p {
+    color: var(--p-blanco);
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Fin Reviews */
+
+
+/* Contacto */
+
+#contacto {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/background-section-segunda.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cont-form {
+    display: inherit;
+}
+
+#contacto h2 {
+    font-family: 'Yeseva One', cursive;
+    color: var(--t-dorado);
+}
+
+form label {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--t-dorado);
+    font-weight: bold;
+}
+
+form input {
+    font-style: italic;
+}
+
+form select,
+input:hover {
+    border: var(--t-dorado) solid 1px;
+}
+
+form select {
+    outline: none;
+}
+
+.btn-cont input {
+    outline: none;
+    border: 0;
+    background-color: var(--t-dorado);
+    color: var(--color-link);
+}
+
+
+/* Fin Contacto */
+
+
+/* Footer */
+
+footer h3 {
+    color: var(--t-blanco);
+    font-family: 'Yeseva One', cursive;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--p-blanco);
+}
+
+footer .fab {
+    color: var(--p-blanco);
+}
+
+
+@media (max-width: 992px) {
+    .navbar{
+        background-color: var(--p-negro);
+    }
+
+}
